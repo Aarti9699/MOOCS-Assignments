@@ -1,0 +1,45 @@
+/* /* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.profile-page {
+  height: 600px;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+}
+
+.profile-picture {
+  background-image: url(me3.jpg);
+  height: 360px;
+  width: 350px;
+  border-radius: 50%;
+  margin-left: 135px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* Circle shape */
+  object-fit: cover;
+  /* Cover the area without distortion */
+}
+
+.profile-details h2 {
+  margin-top: 50px;
+  margin: 10px 0;
+}
+
+.profile-details p {
+  color: #555;
+}

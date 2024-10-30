@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+    
+   <!-- Header Section -->
+   <header>
+    <h1>Aarti Pawar</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Section 1: About Me -->
+        <section id="about" class="section">
+            <div class="contentt">
+                <img src="me2.jpg" alt="Profile picture" class="profile-img" width="300" height="200">
+                <h1>Hi, I'm Aarti Pawar </h1>
+                <br>
+                <p>I am Studying in Y.M.I.M College ,Karad. A Front end web developer with a passion for creating beautiful and functional websites. </p>
+            </div></p>
+            </div>
+        </section>
+    </div>
+
+        <!-- Section 2: hobbies -->
+         <div class="second-container">
+        <section id="hobbies" class="hobby-section">
+            <div class="hobby">
+                <h2>Hobbies</h2>
+                <ul class="hobbies-list">
+                    <li>Learning New Programming Languages</li>
+                    <li>Drawing</li>
+                    <li>Gardening</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+        </section>
+        </div>
+        <!-- Section 3: Contact Form -->
+     <!-- Contact Form -->
+     <section id="contact">
+        
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p id="form-status"></p>
+        </form>
+    
+    </section>
+   
+    
+
+    <script src="Profile.js"></script>
+</body>
+</html>
+   
